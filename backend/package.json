@@ -1,0 +1,31 @@
+{
+  "name": "graphql-workshop-backend",
+  "version": "1.0.0",
+  "description": "Backend for Hendrik's GraphQL workshop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -r @babel/register -r dotenv/config src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendrikniemann/graphql-workshop.git"
+  },
+  "author": "hendrikniemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hendrikniemann/graphql-workshop/issues"
+  },
+  "homepage": "https://github.com/hendrikniemann/graphql-workshop#readme",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.28"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "nodemon": "^2.0.4"
+  }
+}
